@@ -1,0 +1,268 @@
+
+% resume.tex
+%
+% (c) 2002 Matthew Boedicker <mboedick@mboedick.org> (original author) http://mboedick.org
+% (c) 2003-2007 David J. Grant <davidgrant-at-gmail.com> http://www.davidgrant.ca
+% (c) 2007-2014 Todd C. Miller <Todd.Miller@sudo.ws> http://www.sudo.ws/todd
+%
+% This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
+
+\documentclass[letterpaper,11pt]{article}
+
+%-----------------------------------------------------------
+\usepackage[empty]{fullpage}
+\usepackage{color}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tikz}
+
+\definecolor{mygrey}{gray}{0.80}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Set color hyperlinks
+\hypersetup{ 
+     colorlinks=true, 
+     linkcolor=blue, 
+     filecolor=blue, 
+     citecolor=black,       
+     urlcolor=blue, 
+     } 
+
+% Adjust margins to 0.25in on all sides
+\addtolength{\oddsidemargin}{-0.25in}
+\addtolength{\evensidemargin}{-0.25in}
+\addtolength{\textwidth}{0.5in}
+\addtolength{\topmargin}{-0.15in}
+\addtolength{\textheight}{1.0in}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{6.55in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+%-----------------------------------------------------------
+
+
+\begin{document}
+
+\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+\textbf{\Large Patricia Bata} & +639 17 526 8788\\
+1 Massey Square \# 2714  &  \href{mailto:bata.patricia@gmail.com}{bata.patricia@gmail.com}  \\
+Toronto, Ontario M4C 5L4 & \href{https://github.com/patbata}{github.com/patbata}\\
+\end{tabular*}
+\\
+
+\vspace{0.1in}
+
+\resheading{Education}
+\begin{itemize}
+\item
+	\ressubheading{University of the Philippines - Diliman}{Quezon City, PH}{Bachelor of Science in Chemical Engineering (5-year program)}{Jun. 2013  - Jul. 2018}
+	\begin{itemize}
+		\resitem{Cumulative GWA: 1.82 / 1.00}
+		\resitem{Graduating Year GWA: 1.48 / 1.00}
+		\resitem{University Scholar\textsuperscript{1} (1st Semester AY 2017-2018)}
+		\resitem{College Scholar\textsuperscript{2} (1st Sem AY 2014-2015; 2nd Sem AY 2015-2016; 1st Sem AY 2016-
+		2017)}
+		\resitem{Award winning senior thesis: Chitosan-coated silica nanostructures from waste rice husk for carbon dioxide capture}
+		\resitem{Academic units: Mathematical Methods, Thermodynamics, Transport Phenomena, Chemical Reaction Engineering, Chemical Process Dynamics and Control,  Project Management, Environmental Process Engineering, Chemical Engineering Research}
+	\end{itemize}
+
+\textsuperscript{1}\footnotesize{Merit award for students with a semestral general weighted average of at least 1.45 (magna cum laude standing).}\\
+\textsuperscript{2}\footnotesize{Merit award for students with a semestral general weighted average of at least  1.75 (cum laude standing).}
+
+\end{itemize}
+
+\resheading{Work Experience}
+\begin{itemize}
+\item
+	\ressubheading{OptumLabs, Inc.}{BGC Taguig City, PH}{Data Scientist}{Dec. 2019 - Present}
+	\begin{itemize}
+		\resitem{Use pertinent data and facts to identify and solve a range of problems within area of expertise}
+		\resitem{Applies statistics, machine learning, programming, data modeling, simulation, and advanced mathematics to recognize patterns, 
+		identify opportunities, pose business questions, and make valuable discoveries leading to prototype development and product improvement.}
+	\end{itemize}
+\item
+	\ressubheading{OptumLabs, Inc.}{BGC Taguig City, PH}{Data Science Apprentice}{Jul. 2019 - Dec. 2019}
+	\begin{itemize}
+		\resitem{Part of the BPI - UnitedHealth Group Data Science (BUDS) program, which is an intensive 6-month training program on different methods 
+		in data science, specifically statistics and machine learning algorithms to solve problems.}
+		\resitem{Practiced data science techniques and applications using real data from the health care and financial industries.}
+		\resitem{Trainings included Technical Challenges (TCs), which are one-day team-based activities that focus on a particular aspect of data science, and Case Studies, 
+		which are multi-week projects that use real-world data and aim to solve current projects from BPI and UHG R\&D.}
+	\end{itemize}
+\item
+	\ressubheading{B\&V People Business Co.}{Muntinlupa City, PH}{Admin Officer}{Feb. 2019 - May 2019}
+	\begin{itemize}
+		\resitem{Assisted leadership programs of B\&V People Business Co., which include: Leadership Development Planning, 
+		Accountability Workshops, and Effective Communication Skills Workshops}
+		\resitem{Assisted during Global In-House Center Council (GICC) fellowship meetings, which are meetings between GICC’s 60 members, predominantly Fortune 500 companies.}
+	\end{itemize}
+	\pagebreak
+\item
+	\ressubheading{Polymer Research Laboratory}{Quezon City, PH}{Student Researcher}{Jun. 2017 - September 2018}
+	\begin{itemize}
+		\resitem{Worked closely with Dr. Bryan B. Pajarito on developing a novel carbon dioxide  adsorbent from waste rice husk and chitosan.}
+		\resitem{Researched on the feasibility of the novel adsorbent and its possible application in industrial plants as an alternative to other absorbents/adsorbents used for carbon dioxide.}
+		\resitem{Experimented using a fixed-bed adsorption set-up and characterized adsorbent properties using OriginPro.}
+    \end{itemize}
+
+\end{itemize}
+
+\resheading{Conferences and Awards}
+\begin{itemize}
+	\item
+	\ressubheading{Champion}{Laguna, PH}{PIChE National Undergraduate Research Contest}{Feb. 2018}
+		\begin{itemize}
+			\resitem{Organized by Philippine Institute of Chemical Engineers (PIChE)}
+			\resitem{Research based competition between all chemical engineering students across the country.}
+			\resitem{Contest theme: "Expanding Chemical Engineering Competencies for National Development"}
+		\end{itemize}
+	\item
+	\ressubheading{2nd Runner Up - Research}{Quezon City, PH}{UPD Engineering Undergraduate Project Contest}{Jun. 2018}
+		\begin{itemize}
+			\resitem{Organized by the College of Engineering at University of the Philippines – Diliman}
+			\resitem{Design and research competition between all engineering students in UP Diliman}
+		\end{itemize}
+	\item
+	\ressubheading{Best in Innovation \& 1st Runner Up}{Makati City, PH}{BPI-DOST Science Awards}{Jun. 2018}
+		\begin{itemize}
+			\resitem{Organized by Bank of the Philippine Islands (BPI) and Department of Science and Technology (DOST)}
+			\resitem{Contest theme: "Forming a Sustainable Country through Science and Innovation"}
+			\resitem{A highly competitive nationwide science competition aimed to encourage and fund the country's top studies that support the 
+			United Nation's Sustainable Development Goals (SDGs).}
+			\resitem{Only the country's top 5 projects are invited to present and defend.}
+		\end{itemize}
+	\item
+	\ressubheading{Champion}{Quezon City, PH}{Magsaysay Future Engineers/Technologists Award (MFET)}{Dec. 2018}
+		\begin{itemize}
+			\resitem{Organized by National Academy of Science and Technology, Philippines (NAST PHL) and Department of Science and Technology (DOST)}
+			\resitem{An award given by the country’s highest advisory and recognition body to the 
+			government and the science community to encourage young Filipino students to pursue a career in science.}
+		\end{itemize}
+\end{itemize}
+
+\resheading{Skills}
+
+\begin{description}
+\item[Languages:]
+Python, Matlab, SQL, Tableau, RStudio, \LaTeX
+\item[Operating Systems:]
+Linux, Mac OS X, Windows {\sc UNIX}
+\item[Modelling:]
+Ordinary Linear Regression, Neural Networks (ANN, RNN, CNN), Boosting models (XGBoost, CatBoost, LightBoost), Transformer models (BERT, MedBert, GPT-3, Med7, NeuroNER)
+\item [Data Visualization]:
+Sankey diagrams, SHAP diagrams, Plotly, Bokeh, Matplotlib, Seaborn
+\item[Data Expertise]:
+Claims analysis, Health surveys, Free-text doctor's notes, Finanacial Data
+\pagebreak
+\item[Lab Skils:]
+Sol-Gel process, UV-Vis Spectrometer, Fixed-bed adsorption analysis, High-temperature box furnace, Amination of polymers
+\item[Interpretation Skills:]
+X-Ray Diffraction (XRD), X-ray fluorescence (XRF) spectrometer, Raman spectroscopy, Brunauer, Emmett and Teller (BET) surface area analysis, 
+Fourier-transform infrared spectroscopy (FTIR), Field emission-scanning electron microscopy (FE-SEM), Transmission electron microscopy (TEM), Thermogravimetric analysis (TGA), 
+Differential scanning calorimetry (DSC)
+\item[Miscellaneous:]
+Intermediate video editing, Strong verbal and written communication skills, Excellent troubleshooting and debugging skills, Exceptional problem solving skills, Good leadership and team management skills, 
+Good technical writing skills, Excellent at poster and manuscript preparation
+
+\end{description}
+
+\resheading{Projects}
+\begin{itemize}
+    \item \textbf{Bank Customer Segmentation based on Customer Value} (Oct. 2019)\vspace{-5pt}
+        \begin{itemize}
+    		\resitem{Aimed to segment the customers from a popular bank in the Philippines (BPI) based on banking activities.}
+    		\resitem{Utilized Exploratory Factor Analysis (EFA) and k-means clustering to determine a customer value metric.}
+        \end{itemize}
+    \item \textbf{Quantifying Risk of Readmission for Diabetic Population} (Nov. 2019)\vspace{-5pt}
+        \begin{itemize}
+    		\resitem{Aimed to determine features that are significant in patient readmission using data from 130 US hospitals}
+    		\resitem{Developed 15 model configurations, and made use of linear and tree-based models using SMOTE and LASSO techniques}
+        \end{itemize}
+    \item \textbf{BPI ATM Forecasting with Unsupervised Clustering} (Dec. 2019)\vspace{-5pt}
+        \begin{itemize}
+    		\resitem{Aimed to optimize tha bank's ATM reloading schedule to prevent premature loading and cash-out.}
+    		\resitem{Developed forecasting models using architectures such as RNN - LSTM and FaceBook prophet.}
+    		\resitem{Each model was assigned to an ATM cluster, developed using unsupervised techniques such as k-means, DBSCAN, and spectral clustering.}
+        \end{itemize}
+    \item \textbf{Creating Medical Embeddings for Lung Cancer Prediction} (Oct. 2020)\vspace{-5pt}
+        \begin{itemize}
+    		\resitem{Developed medical embeddings using XLNet and GPT-3 from claims data to predict lung cancer.}
+        \end{itemize}
+    \item \textbf{Incorporating a Predictive Model in Micro-simulation Model (MSM) for Lung Cancer Costs} (Nov. 2020)\vspace{-5pt}
+        \begin{itemize}
+    		\resitem{Incorporated a lung cancer prediction model into a microsimulation model to simulate costs and determine if the predictive model helps diagnose lung cancer earlier.}
+        \end{itemize}    
+    \item \textbf{De-identification of Reliant Medical Data} (Aug. 2021)\vspace{-5pt}
+        \begin{itemize}
+    		\resitem{Aimed to evaluate and refine the open-source Philter algorithm to de-identify free-text doctor's notes from Reliant Medical Group.}
+    		\resitem{Made use of regular expressions and medical-based NLP models (Med7 and NeuroNER) to improve the algorithm.}
+        \end{itemize}  
+        
+\pagebreak
+        
+    \item \textbf{Community Data Simulation and Modeling} (Sept. 2021)\vspace{-5pt}
+        \begin{itemize}
+    		\resitem{Aimed to demonstrate that using community-level variables as predictors to models lead to confounding variables and bias.}
+    		\resitem{Developed a Simulation and Model python class to demonstrate this bias.}
+    		\resitem{A dashboard using these classes was developed to manipulate simulation parameters and model these in real-time.}
+        \end{itemize}
+	\item \textbf{Other projects}\vspace{-5pt}
+    	\begin{itemize}
+    	    \resitem{Explored the association between activity and sleep patterns using Fitbit data. (Sept. 2019)}
+    	    \resitem{Developed a pipeline to analyze different CGM-derived metrics and adverse perinatal outcome for a pilot study with University of Pennsylvania. (Jan. 2020)}
+    	    \resitem{Explored UnitedHealth Group's claims data to identify common delays in lung cancer diagnosis and their associated cost. (Feb. 2020)}
+    	    \resitem{Conducted a retrospective study of lung module management, such as pathways to diagnosis and succeeding procedures, using medical claims. (May. 2020)}
+    	    \resitem{Analyzed Safegraph's mobility data to determine hospital patterns and surges before and after COVID-19 using time-series analysis. (Feb. 2021)}
+    	    \resitem{Created sankey diagrams to explore GLP-1 drop-offs in patients diagnosed with type 2 diabetes. (Jun. 2021)}
+    	    
+    	\end{itemize}
+\end{itemize}
+
+
+\resheading{Publications}
+
+\begin{enumerate}
+    \item Mehrotra S, Brantley H, Onglao P, Bata P, Romero R, Westman J, Bangerter L, Maity A. Divide- and-Conquer MCMC for Multivariate Binary Data. arXiv. Preprint posted online June 11, 2021. \href{https://arxiv.org/pdf/2102.09008.pdf}{arxiv:2102.09008} 
+    \vspace{-5pt}
+    \begin{itemize}
+        \item Maintained GitHub repository using enterprise assets.
+        \item Validated R scripts and results
+        \item Point-person for formatting and submitting manuscripts to journal publications 
+    \end{itemize}
+\end{enumerate}
+    
+
+
+% \resheading{Leadership Experience and Affiliations}
+% \begin{itemize}
+%     \item \textbf{University of the Philippines Academic League of Chemical Engineers (UP ALCHEMES)} (Oct. 2019)\vspace{-5pt}
+%         \begin{itemize}
+%     		\resitem{\textbf{Executive Officer for Secretariat} led the documentation committee; was responsible for archiving for files and editing submissions for competitions}
+%     		\resitem{Utilized Exploratory Factor Analysis (EFA) and k-means clustering to determine a customer value metric.}
+%         \end{itemize}
+% \end{itemize}
+
+
+\resheading{Interests}
+
+\begin{description}
+\item[Academic:] Polymerization, nanotechnology, bioinformatics, genetics
+\item[Sports:] Football, bouldering, and yoga
+\item[Computers:] Neural networks, natural language processing, simulations, dashboarding
+\item[Musical:] Playing piano and singing in chorale
+\item[Membership:] Philippine Institute of Chemical Engineers (PIChE), UP Alumni Engineers Association
+\item[Other:] Reading novels, foreign language learning
+\end{description}
+
+\begin{tikzpicture}[remember picture,overlay]
+      \node[anchor=south, yshift=1cm] at (current page.south) {\textit{Last updated: \today}};
+\end{tikzpicture}
+
+\end{document}
